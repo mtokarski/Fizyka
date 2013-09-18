@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\common_physics\material_point.cpp" />
+    <ClCompile Include="..\common\input.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\utils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\utils_shaders.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="rigid_body_test.cpp" />
+    <ClCompile Include="..\common_physics\rigid_body.cpp" />
+    <ClCompile Include="..\common\utils_math.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common_physics\collision_shapes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common_physics\material_point.h" />
+    <ClInclude Include="..\common\input.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\utils_math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common_physics\rigid_body.h" />
+    <ClInclude Include="..\common_physics\collision_shapes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{e0851327-aad8-4811-80dd-e467db20f4b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
