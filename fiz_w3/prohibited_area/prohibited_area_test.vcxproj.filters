@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="prohibited_area_test.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common_physics\material_point.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common_physics\prohibited_area.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\utils_shaders.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\utils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\input.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{0010604c-53ae-42d7-b34e-6cc569b81de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{d36b1cbc-23b8-49d8-858c-0776ebd07a72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common_physics\material_point.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common_physics\prohibited_area.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\common_physics\material_point.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\utils_shaders.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\utils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common_physics\point_sets.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\input.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common_physics\prohibited_area.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_test.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common_physics\points_with_collision.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common_physics\material_point.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\utils_math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common_physics\point_sets.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\input.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common_physics\prohibited_area.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common_physics\points_with_collision.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{1bd27804-696b-442f-ab3b-593853553ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{85bb7289-3eeb-471d-af63-f32ad3d07f2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
